@@ -1,0 +1,35 @@
+    1  cd /c/Users/<OlgaNesteruk>/Documents
+    2  cd /c/Users/<HP(141)>/Documents
+    3  cd /c/Users/<HP(141)>/Documents 
+    4  cd /c/Users/<HP>/Documents
+    5  cd /c/Users/<HP>/Documents/<Lesson32>
+    6  cd /c/Users/HP/Desktop/Lesson32
+    7  ~/Desktop/Lesson32
+    8  -c && rm ~/.bash_history
+    9  git config --global user.name "HP"
+   10    git config --global user.email "olganesteruck17@gmail.com"
+   11  git clone https://github.com/olganess/HW_10.git
+   12  cd HW_10
+   13  touch text_ignore.txt
+   14  echo "text_ignore.txt" >> .gitignore
+   15  git status
+   16  git add .
+   17  git commit -m "Додав файл .gitignore і додав до нього text_ignore.txt"
+   18  touch main_test.txt
+   19  git add .
+   20  git commit -m "Додала порожній файл main_test.txt"
+   21  git status
+   22  [200~git checkout -b <назва_гілки>
+   23  git checkout -b <нова гілка>
+   24  git checkout -b <develop>
+   25  git checkout -b develop
+   26  touch develop_test.txt
+   27  git add .
+   28  git commit -m "Створила порожній файл develop_test.txt"
+   29  git status
+   30  git add .
+   31  git commit -m "Внесла зміни у файл develop_test.txt"
+   32  git checkout main
+   33  git merge develop
+   34  git log
+   35  history > command_list.csv
