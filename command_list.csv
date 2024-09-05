@@ -33,3 +33,14 @@
    33  git merge develop
    34  git log
    35  history > command_list.csv
+   36  git add .
+   37  git commit -m "Final commit with command_list.csv"
+   38  git push origin main
+   39  cd HW_10
+   40  cd C:/Users/HP/Desktop/Lesson32
+   41  git clone https://github.com/olganess/HW_10.git
+   42  git clone https://github.com/olganess/HW_10.git
+   43  cd HW_10
+   44  history > command_list.csv
+   45  ls
+   46  history > command_list.csv
